@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    padding: 7px;
+    margin: 7px;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: rgba(87, 86, 82, 0.384);
+}
+#Kalendarz{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 50vh;
+}
+#content, #DniWMiesiacu{
+    border: 2px solid black;
+}
+#rok{
+    font-size: 90px;
+}
+#miesiac{
+    font-size: 20px;
+}
